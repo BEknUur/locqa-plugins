@@ -1,0 +1,14 @@
+{
+  "name": "locqa-plugins",
+  "owner": { "name": "Butaq" },
+  "description": "Agent plugins for locqa, the Flutter ARB localization QA tool.",
+  "plugins": [
+    {
+      "name": "locqa",
+      "source": "./plugins/locqa",
+      "description": "QA for Flutter ARB translations with a human-only approval workflow.",
+      "category": "development",
+      "tags": ["flutter", "arb", "localization", "kazakh", "uzbek"]
+    }
+  ]
+}

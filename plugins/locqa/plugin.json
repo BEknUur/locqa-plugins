@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "locqa",
+  "version": "0.1.0",
+  "description": "Check Flutter ARB translations for untranslated text, broken placeholders and ICU plurals, glossary and length problems, wrong-language text, Kazakh orthography and suffix issues, with a human-only approval workflow.",
+  "author": { "name": "Butaq" },
+  "license": "MIT",
+  "keywords": ["flutter", "arb", "localization", "l10n", "i18n", "kazakh", "uzbek", "qa"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "locqa — ARB localization QA",
+        "shortDescription": "QA for Flutter ARB translations",
+        "developerName": "Butaq",
+        "category": "Coding",
+        "defaultPrompt": [
+          "Use locqa to check the Kazakh ARB file against the Russian source.",
+          "Use locqa to find broken placeholders in our Flutter translations."
+        ]
+      }
+    }
+  }
+}

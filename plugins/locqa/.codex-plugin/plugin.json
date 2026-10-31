@@ -1,0 +1,9 @@
+{
+  "name": "locqa",
+  "version": "0.1.0",
+  "description": "Check Flutter ARB translations for untranslated text, broken placeholders and ICU plurals, glossary and length problems, wrong-language text, Kazakh orthography and suffix issues, with a human-only approval workflow.",
+  "author": { "name": "Butaq" },
+  "license": "MIT",
+  "keywords": ["flutter", "arb", "localization", "l10n", "i18n", "kazakh", "uzbek", "qa"],
+  "skills": "./skills/"
+}
